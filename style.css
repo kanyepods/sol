@@ -45,6 +45,17 @@ img {
     overflow: clip;
 }
 
+.ca {
+	color: black;
+	margin-top: 100px;
+	text-align: center;
+
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
 .socks {
 	display: none;
 }
@@ -422,6 +433,9 @@ footer .container {
 	.info h1{
 		font-size: 28px;
 	}
+	.ca {
+		font-size: 14px;
+	}
 	.how .title {
 		font-size: 28px;
 	}
@@ -615,6 +629,9 @@ footer .container {
 	.hero .container {
 		margin-top: 95px;
 	}
+	.ca {
+		font-size: 12px;
+	}
 	.kanye img {
 		display: none;
 	}
@@ -664,6 +681,12 @@ footer .container {
 	}
 }
 
+@media screen and (max-width: 360px) {
+	.ca {
+		font-size: 10px;
+	}
+}
+
 @media screen and (max-width: 325px) {
 	.info h1 {
 		font-size: 16px;
@@ -674,7 +697,9 @@ footer .container {
 	.step__text h1 {
 		font-size: 18px;
 	}
-
+	.ca {
+		font-size: 9px;
+	}
 }
 
 
